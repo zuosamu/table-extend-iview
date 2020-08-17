@@ -1,14 +1,21 @@
 {
   "name": "table-extend-iview",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.2",
+  "main": "lib/table-extend-iview.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name table-extend-iview --dest lib ./packages/index.js"
   },
-  "dependencies": {
+  "peerDependencies": {
     "core-js": "^3.6.5",
+    "debounce-promise": "^3.1.2",
+    "iview": "^3.5.4",
+    "lodash.isempty": "^4.4.0",
+    "lodash.merge": "^4.6.2",
+    "lodash.pick": "^4.4.0",
+    "moment": "^2.26.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

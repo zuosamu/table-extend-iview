@@ -1,0 +1,15 @@
+.__table-extend_pagination_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.__table-extend_search_btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+.__table-extend_search_btn > button {
+  margin-left: 10px;
+}
